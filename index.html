@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Минимальный демонстрационный сайт для показа рабочего процесса Git, GitHub и GitHub Pages.">
+  <title>От локального проекта к опубликованному сайту!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="На главную">M01 Demo</a>
+    <span class="status"><span class="status-dot" aria-hidden="true"></span>Локальная версия</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">Минимальный reference project</p>
+      <h1 id="page-title">От локального проекта<br>к опубликованному сайту</h1>
+      <p class="lead">Одна небольшая страница помогает увидеть весь маршрут: локальные изменения, история Git, репозиторий GitHub и публикация через GitHub Pages.</p>
+      <a class="button" href="#route">Посмотреть маршрут</a>
+    </section>
+
+    <section class="route" id="route" aria-labelledby="route-title">
+      <div class="section-heading">
+        <p class="eyebrow">Проверяемые состояния</p>
+        <h2 id="route-title">Три точки рабочего процесса</h2>
+      </div>
+
+      <ol class="route-grid">
+        <li class="route-card">
+          <span class="step">01</span>
+          <h3>Local</h3>
+          <p>Файлы открываются в браузере, а Git фиксирует понятную историю изменений.</p>
+        </li>
+        <li class="route-card">
+          <span class="step">02</span>
+          <h3>GitHub</h3>
+          <p>Ветка и Pull Request делают границу изменения видимой до merge.</p>
+        </li>
+        <li class="route-card">
+          <span class="step">03</span>
+          <h3>Pages</h3>
+          <p>Ветка <code>main</code> и каталог <code>/(root)</code> становятся источником публичного сайта.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="result" aria-labelledby="result-title">
+      <div>
+        <p class="eyebrow">Ожидаемый результат</p>
+        <h2 id="result-title">Один проект — несколько подтверждений</h2>
+      </div>
+      <ul class="check-list">
+        <li>чистое состояние рабочего каталога;</li>
+        <li>осмысленные commits в истории;</li>
+        <li>проверенное изменение после Pull Request;</li>
+        <li>рабочий публичный URL.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Статический HTML + CSS · без framework и backend</p>
+  </footer>
+</body>
+</html>
